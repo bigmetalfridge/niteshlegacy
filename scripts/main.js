@@ -1,4 +1,4 @@
-const themeSwitcher = document.querySelector('.theme-switcher');
+const themeSwitcher = document.querySelector('#theme-switcher');
 const body = document.body;
 
 // Check for a saved theme in localStorage
