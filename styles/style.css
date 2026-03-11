@@ -1,0 +1,70 @@
+/* General styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #a1c4fd, #d4a1fd, #ffffff);
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+/* Theme switcher button */
+.theme-switcher {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Dark theme */
+body.dark-theme {
+    background: linear-gradient(to right, #434343, #000000);
+    color: #f1f1f1;
+}
+
+body.dark-theme header,
+body.dark-theme footer {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+body.dark-theme nav a {
+    color: #f1f1f1;
+}
